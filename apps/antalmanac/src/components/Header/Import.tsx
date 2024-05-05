@@ -56,7 +56,7 @@ function Import() {
             try {
                 zotcourseImport = await queryZotCourse(zotcourseScheduleName);
             } catch (e) {
-                openSnackbar('error', 'Could not import from Zotcourse.');
+                openSnackbar('error', 'Could not import from [MEOW] Zotcourse.');
                 console.error(e);
                 handleClose();
                 return;
